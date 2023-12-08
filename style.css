@@ -5,6 +5,13 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
+.logo{
+    width: 60px;
+}
 .navbarContent{
     width: 100%;
     justify-content: end;
@@ -28,4 +35,29 @@
     display: inline;
     vertical-align: middle;
         
+}
+
+.sliderC{
+    height: 75vh;
+    background-image: url(images/s1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.sliderC2{
+    height: 75vh;
+    background-image: url(images/s2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.sliderC3{
+    height: 75vh;
+    background-image: url(images/s3.jpg);
+    background-position: center;
+    background-size: cover;
+    
 }
