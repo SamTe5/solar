@@ -1,5 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .navbarContent{
     width: 100%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+}
+
+.logom{
+    
+    height: auto;
+    display: inline-block;
+    position: fixed;
+    right: 5%;
+    bottom: 4%;   
+   
+}
+
+.logoLink{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: inline;
+    vertical-align: middle;
+        
 }
