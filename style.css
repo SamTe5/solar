@@ -181,10 +181,6 @@ img {
     text-align: center;
 }
 
-.logom {
-    width: 150px;
-}
-
 .colLeft {
     justify-content: center;
     align-items: center;
@@ -192,11 +188,62 @@ img {
 
 }
 
-.icerik{
+.vhvh {
+    height: 100%;
+}
+
+.icerik {
     width: 100%;
-    height: 200px;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.log {
+    width: 150px;
+}
+
+.welcome {
+    color: whitesmoke;
+    opacity: 0;
+    animation-name: slider2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slider2 {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media screen and (max-width:580px) {
+    .who{
+        width: 100%;
+    }
+    .yazi{
+        width: 100%;
+    }
+    .who1{
+        width: 100%;
+    }
+
+    .who2{
+        width: 100%;
+    }
+    .yazimC{
+        width: 100%;
+    }
+
+
 }
