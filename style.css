@@ -245,5 +245,13 @@ img {
         width: 100%;
     }
 
+    .cardMedia{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
 
 }
