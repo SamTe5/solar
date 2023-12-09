@@ -42,7 +42,7 @@ img{
     background-image: url(images/s1.jpg);
     background-position: center;
     background-size: cover;
-    
+    transition: filter 0.5s;
     
 }
 
@@ -60,4 +60,34 @@ img{
     background-position: center;
     background-size: cover;
     
+}
+.box1{
+    background-image: url(images/gunes.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.box2{
+    background-image: url(images/analiz.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.box3{
+    background-image: url(images/green.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.box4{
+    background-image: url(images/esarj.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
